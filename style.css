@@ -4,44 +4,53 @@
     text-align: center;
     padding: 20px;
     font-family: "Roboto", sans-serif;
-  }
-  
-  .title {
+}
+
+.title {
     font-size: 36px;
     margin-bottom: 10px;
     color: #2c3e50;
-  }
-  
-  .timer {
+}
+
+.timer {
     font-size: 72px;
     color: #2c3e50;
-  }
-  
-  button {
+    margin-bottom: 20px;
+}
+
+button {
     font-size: 18px;
     padding: 10px 20px;
     margin: 10px;
     color: white;
-  
+
     border: none;
     border-radius: 4px;
     cursor: pointer;
     text-transform: uppercase;
     transition: opacity 0.3s ease-in-out;
-  }
-  
-  button:hover {
+}
+
+button:hover {
     opacity: 0.7;
-  }
-  
-  #start {
+}
+
+#start {
     background-color: #27ae60;
-  }
-  
-  #stop {
+}
+
+#stop {
     background-color: #c0392b;
-  }
-  
-  #reset {
+}
+
+#reset {
     background-color: #7f8c8d;
-  }
+}
+
+/* New styling for timer status */
+#timer-status {
+    font-size: 18px;
+    color: #34495e;
+    margin-top: 20px;
+    font-weight: bold;
+}
